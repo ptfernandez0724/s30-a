@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "0da9738b-0185-4422-8748-dc656714550f",
+		"name": "S30-Activity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user register",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
