@@ -50,6 +50,21 @@ app.post('/signup', (req, res) => {
 	})
 })
 
+app.get('/users', (req,res) =>{
+
+	User.find({}, (err,result) =>{
+
+		if(err){
+			return console.log(err)
+		}else{
+			return res.status(200).json({
+				data: result
+
+			})
+		}
+	})
+})
+
 
 
 app.listen(port, () => console.log(`Server is running at port ${port}`));
